@@ -1,0 +1,22 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - octocat
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - bug
+        - chore
+    - title: Exciting New Features 🎉
+      labels:
+        - enhancement
+    - title: Doc 🎉
+      labels:
+        - documentation
+    - title: Other Changes
+      labels:
+        - "*"
